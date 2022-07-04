@@ -19,6 +19,7 @@ if (x = y) {
 } else {
 
 }
+
 In this example, the code block within the if statement will run for any value of y, unless y is falsy. The else block, which we expect to run 
 here, will not actually run.
 
@@ -29,7 +30,7 @@ let x = 7;
 let y = 9;
 let result = "to come";
 
-if(x = y) {
+if(x == y) {
   result = "Equal!";
 } else {
   result = "Not equal!";

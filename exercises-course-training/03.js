@@ -11,6 +11,7 @@ console.log(typeof "");
 console.log(typeof 0);
 console.log(typeof []);
 console.log(typeof {});
+
 In order, the console will display the strings string, number, object, and object.
 
 JavaScript recognizes seven primitive (immutable) data types: Boolean, Null, Undefined, Number, String, Symbol (new with ES6), and 
@@ -23,7 +24,8 @@ let seven = 7;
 let three = "3";
 console.log(seven + three);
 // Only change code below this line
-
+console.log(typeof seven)
+console.log(typeof three)
 
 console.log()
 // document.getElementById("demo").innerHTML = "";

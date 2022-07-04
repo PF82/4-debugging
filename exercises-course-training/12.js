@@ -12,6 +12,7 @@ function loopy() {
     console.log("Hello, world!");
   }
 }
+
 It's the programmer's job to ensure that the terminal condition, which tells the program when to break out of the loop code, is 
 eventually reached. One error is incrementing or decrementing a counter variable in the wrong direction from the terminal condition. 
 Another one is accidentally resetting a counter or index variable within the loop code, instead of incrementing or decrementing it.
@@ -22,11 +23,11 @@ The myFunc() function contains an infinite loop because the terminal condition i
 */
 
 function myFunc() {
-    for (let i = 1; i != 4; i += 2) {
+    for (let i = 1; i <= 4; i++) {
         console.log("Still going!");
     }
 }
 
 
-console.log()
+console.log(myFunc())
 // document.getElementById("demo").innerHTML = "";

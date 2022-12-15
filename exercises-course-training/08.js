@@ -12,7 +12,6 @@ function myFunction() {
 }
 let varOne = myFunction;
 let varTwo = myFunction();
-
 Here varOne is the function myFunction, and varTwo is the string You rock!.
 
 Fix the code so the variable result is set to the value returned from calling the function getNine.

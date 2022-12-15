@@ -15,5 +15,5 @@ let arraySum = myArray.reduce((previous, current) => previous + current);
 console.log(`Sum of array values is: ${arraySum}`);
 
 
-console.log()
+console.log(arraySum)
 // document.getElementById("demo").innerHTML = "";

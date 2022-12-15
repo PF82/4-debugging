@@ -15,8 +15,8 @@ to clear the browser console. View the difference in the two consoles.
 */
 
 let output = "Get this to show once in the freeCodeCamp console and not at all in the browser console";
+
+
 console.log(output)
 console.clear()
-
-console.log()
 // document.getElementById("demo").innerHTML = "";
